@@ -6,4 +6,4 @@
 	+ pip3 install -r requirements.txt 
 4. Set environment for chrome driver
 5. How to run test:
-    + pytest -s -v testcases\test_search_product.py -k "test_amazon" --html=logs\test_amazon.html --browser gc
+    + pytest -s -v testcases\test_amazon.py -k "test_amazon" --html=logs\test_amazon.html --browser gc
