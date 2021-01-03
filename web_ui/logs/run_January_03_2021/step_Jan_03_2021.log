@@ -1,0 +1,19 @@
+01/03/2021 02:34:41 PM - e:\amazon-testing\venv\lib\site-packages\_pytest\fixtures.py - TESTCASE: ### RUNNING TEST: web_ui.testcases.test_amazon.TestSearchPage.test_amazon
+01/03/2021 02:34:41 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:34:41 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 1. Login into amazon.com
+01/03/2021 02:34:41 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:34:50 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:34:50 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 2. Search for item “sd card” with filter [capacity 64 GB] [sort by: price from high to low]
+01/03/2021 02:34:50 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:01 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:01 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 3. Pick the item in the list and go to cart
+01/03/2021 02:35:01 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:14 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:14 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 4. View the cart, increase quantity to 3
+01/03/2021 02:35:14 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 5. Verify the subtotal price is correct
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 6. Delete the 'sd card' item and verify that the cart is empty
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------

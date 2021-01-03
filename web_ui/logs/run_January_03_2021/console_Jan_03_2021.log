@@ -1,0 +1,71 @@
+01/03/2021 02:34:33 PM - E:\amazon-testing\web_ui\testcases\conftest.py - DEBUG: Set implicitly wait to 1.
+01/03/2021 02:34:41 PM - e:\amazon-testing\venv\lib\site-packages\_pytest\fixtures.py - TESTCASE: ### RUNNING TEST: web_ui.testcases.test_amazon.TestSearchPage.test_amazon
+01/03/2021 02:34:41 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:34:41 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 1. Login into amazon.com
+01/03/2021 02:34:41 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:34:41 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Go to login page
+01/03/2021 02:34:41 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //a[@data-nav-role='signin'] click-able
+01/03/2021 02:34:41 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //a[@data-nav-role='signin']
+01/03/2021 02:34:44 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Input username
+01/03/2021 02:34:44 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //input[@name='email'] loaded
+01/03/2021 02:34:44 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Input vo.van91191@gmail.com to the //input[@name='email']
+01/03/2021 02:34:44 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Click continue button
+01/03/2021 02:34:44 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //input[@id='continue'] click-able
+01/03/2021 02:34:44 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //input[@id='continue']
+01/03/2021 02:34:47 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Input password
+01/03/2021 02:34:47 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //input[@name='password'] loaded
+01/03/2021 02:34:48 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Input v@nvo91191 to the //input[@name='password']
+01/03/2021 02:34:48 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Click submit button
+01/03/2021 02:34:48 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //input[@type='submit'] click-able
+01/03/2021 02:34:48 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //input[@type='submit']
+01/03/2021 02:34:50 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:34:50 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 2. Search for item “sd card” with filter [capacity 64 GB] [sort by: price from high to low]
+01/03/2021 02:34:50 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:34:50 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Input product name
+01/03/2021 02:34:50 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element *//input[@id='twotabsearchtextbox'] loaded
+01/03/2021 02:34:50 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Input sd card to the *//input[@id='twotabsearchtextbox']
+01/03/2021 02:34:50 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Click submit search button
+01/03/2021 02:34:50 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element *//span[@id='nav-search-submit-text'] click-able
+01/03/2021 02:34:50 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: *//span[@id='nav-search-submit-text']
+01/03/2021 02:34:55 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Choose capacity
+01/03/2021 02:34:55 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element *//div[@id='filters']//*[contains(text(),'64 GB')] click-able
+01/03/2021 02:34:55 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: *//div[@id='filters']//*[contains(text(),'64 GB')]
+01/03/2021 02:34:59 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Sorting search result
+01/03/2021 02:35:01 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:01 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 3. Pick the item in the list and go to cart
+01/03/2021 02:35:01 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:01 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Pick item
+01/03/2021 02:35:01 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //*[@data-cel-widget='search_result_2']//h2 click-able
+01/03/2021 02:35:01 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //*[@data-cel-widget='search_result_2']//h2
+01/03/2021 02:35:07 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Add to cart
+01/03/2021 02:35:07 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //*[@id='add-to-cart-button'] click-able
+01/03/2021 02:35:07 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //*[@id='add-to-cart-button']
+01/03/2021 02:35:10 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Go to cart
+01/03/2021 02:35:10 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //*[@id='nav-cart'] click-able
+01/03/2021 02:35:10 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //*[@id='nav-cart']
+01/03/2021 02:35:14 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:14 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 4. View the cart, increase quantity to 3
+01/03/2021 02:35:14 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:14 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Change quantity
+01/03/2021 02:35:14 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //*[@data-a-class='quantity'] click-able
+01/03/2021 02:35:14 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //*[@data-a-class='quantity']
+01/03/2021 02:35:16 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //*[@class='a-popover-wrapper']//ul//*[contains(text(), '3')] click-able
+01/03/2021 02:35:16 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //*[@class='a-popover-wrapper']//ul//*[contains(text(), '3')]
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 5. Verify the subtotal price is correct
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Get price of 1 item
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //*[@data-name='Active Items']//p/span visible
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Get subtotal
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //*[@data-name='Subtotals']/span[@id='sc-subtotal-amount-activecart']/span visible
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Verify subtotal
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Subtotal is correct
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: 6. Delete the 'sd card' item and verify that the cart is empty
+01/03/2021 02:35:18 PM - C:\Users\elvis\AppData\Local\Programs\Python\Python36\lib\unittest\case.py - STEP: ------------------------------------------------------------
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Delete item in cart
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\pages\base_page.py - DEBUG: Wait for element //*[@data-action='delete']/span/input click-able
+01/03/2021 02:35:18 PM - E:\amazon-testing\web_ui\pages\amazon.py - DEBUG: Click on the element by xpath: //*[@data-action='delete']/span/input
+01/03/2021 02:35:21 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Check cart empty
+01/03/2021 02:35:21 PM - E:\amazon-testing\web_ui\workflow\amazon_workflow.py - DEBUG: Wait for element *//h1[contains(text(), 'Your Amazon Cart is empty.')] visible
+01/03/2021 02:35:21 PM - E:\amazon-testing\web_ui\testcases\test_amazon.py - INFO: Cart is empty
