@@ -21,7 +21,7 @@
     Open `Path` add \pathto\amazon-testing\web_ui\driver
 ```
 
-##### For Mac/Linux
+##### For Ubuntu/Mac
 Ubuntu
 ```
     apt-get update
