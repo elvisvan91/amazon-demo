@@ -5,19 +5,20 @@
     
 ### Create-activate virtual environment, install requirements and set up chromedriver
 ##### For Window
+```
     pip install virtualenv
     cd amazon-testing
     virtualenv env
     venv\Scripts\activate.bat
-    
-```
-pip install -r requirements
 ```
 ```
-Control Panel\All Control Panel Items\System
-Open `Advanced system settings`
-Open `Environments Variables`
-Open `Path` add \pathto\amazon-testing\web_ui\driver
+    pip install -r requirements
+```
+```
+    Control Panel\All Control Panel Items\System
+    Open `Advanced system settings`
+    Open `Environments Variables`
+    Open `Path` add \pathto\amazon-testing\web_ui\driver
 ```
 
 ##### For Mac/Linux
