@@ -3,7 +3,7 @@
 ### Download and install python 3.6.8
     https://www.python.org/downloads/release/python-368/
     
-### Create, activate virtual environment, install requirements and set up chromedriver
+### Create-activate virtual environment, install requirements and set up chromedriver
 ##### For Window
     pip install virtualenv
     cd amazon-testing
